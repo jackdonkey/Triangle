@@ -1,0 +1,38 @@
+body{margin: 0; padding: 0}
+#wrapper {width: 650px; height: 650px;}
+
+#Position{height: 20px; width: 600px; font-weight: bold}
+
+.triangleWrapper{float: left; position: relative}
+
+.leftTriangle  {
+    height: 100px;
+    width: 100px;
+    background: transparent url('../images/TriLeft.png') no-repeat 0 0;
+
+    float: left;
+}
+
+.rightTriangle{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    background: transparent url("../images/TriRight.png") no-repeat 0 0;
+
+    float: left;
+    clear: both;
+}
+
+
+.leftTriangle span{text-align: center; position: absolute; top:50px; left: 20px;}
+.rightTriangle span{text-align: center; position: absolute; top:30px; left: 60px; }
+
+.fillColorLeft{
+    opacity: 0.5;
+}
+
+.fillColorRight{
+    opacity: 0.5;
+}
