@@ -9,22 +9,22 @@ body{margin: 0; padding: 0; background-color: #cccccc}
 
 .triangleWrapper{float: left; position: relative}
 
-.leftTriangle  {
+.leftTriangle {
     height: 100px;
     width: 100px;
     background: transparent url('/Images/TriLeft.png') no-repeat 0 0;
-
+    opacity: 0.5;
     float: left;
 }
 
-.rightTriangle{
+.rightTriangle {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     height: 100px;
     width: 100px;
     background: transparent url("/Images/TriRight.png") no-repeat 0 0;
-
+    opacity: 0.5;
     float: left;
     clear: both;
 }
@@ -34,9 +34,9 @@ body{margin: 0; padding: 0; background-color: #cccccc}
 .rightTriangle span{text-align: center; position: absolute; top:30px; left: 60px; }
 
 .fillColorLeft{
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 .fillColorRight{
-    opacity: 0.5;
+    opacity: 0.2;
 }
